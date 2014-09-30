@@ -1,2 +1,3 @@
 # README
 ## Approach
+Going off of the whiteboard exercise this morning, I started by defining a fizzbuzz function that took two parameters (start, end). Then I created a mapping of numbers to outputs in an js object. Next I used a `for` loop beginning with the `start` parameter and incrementing the number up until it equals the `end` parameter. Meanwhile, on each iteration of the range I would loop through the mapping object. I added the output to the string if the current integer in the range was a multiple of the current number in the mapping iteration. After the mapping loop stopped, I console.log()'d the string if there was anything in it otherwise I console.log()'d the current integer in the range.
